@@ -1,3 +1,7 @@
+# DB University
+
+### 05/10/2023
+
 Modellizzare la struttura di un database per memorizzare tutti i dati riguardanti una università:
 
 - sono presenti diversi Dipartimenti (es.: Lettere e Filosofia, Matematica, Ingegneria ecc.);
@@ -12,3 +16,19 @@ Modellizzare la struttura di un database per memorizzare tutti i dati riguardant
 
 Utilizzare https://www.diagrams.net/ per la creazione dello schema.
 Esportare quindi il diagramma in jpg e caricarlo nella repo. (modificato)
+
+### 06/10/2023
+
+1. Selezionare tutti
+2. Selezionare tutti
+3. Selezionare tutti
+4. Selezionare tutti laurea (286)
+5. Selezionare tutti 20/06/2020 (21)
+6. Selezionare tutti
+7. Da quanti dipartimenti è composta l'università? (12)
+8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+   gli studenti nati nel 1990 (160)
+   i corsi che valgono più di 10 crediti (479)
+   gli studenti che hanno più di 30 anni
+   i corsi del primo semestre del primo anno di un qualsiasi corso di
+   gli appelli d'esame che avvengono nel pomeriggio (dopo le 14) del
