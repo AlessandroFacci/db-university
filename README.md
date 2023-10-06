@@ -19,7 +19,16 @@ Esportare quindi il diagramma in jpg e caricarlo nella repo. (modificato)
 
 ### 06/10/2023
 
+### QUERY 1
+
 1. Selezionare tutti gli studenti nati nel 1990 (160)
+
+```
+SELECT *
+FROM `students`
+WHERE `date_of_birth` LIKE "1990-%";
+```
+
 2. Selezionare tutti i corsi che valgono più di 10 crediti (479)
 3. Selezionare tutti gli studenti che hanno più di 30 anni
 4. Selezionare tutti i corsi del primo semestre del primo anno di un
