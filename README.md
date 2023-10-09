@@ -185,7 +185,11 @@ WHERE `degrees`.`level` = "magistrale" AND
 3. Selezionare tutti i corsi in cui insegna Fulvio Amato (id=44)
 
 ```
-
+SELECT `teachers`.*, `course_teacher`.`course_id`
+FROM `teachers`
+INNER JOIN `course_teacher`
+ON `teachers`.`id` = `course_teacher`.`teacher_id`
+WHERE `teachers`.`id` = 44;
 ```
 
 ### QUERY 4
