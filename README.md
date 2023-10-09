@@ -47,6 +47,11 @@ WHERE `cfu` > 10;
 SELECT *
 FROM `students`
 WHERE `date_of_birth` <= '1993-10-06';
+
+
+SELECT *
+FROM `students`
+WHERE TIMESTAMPDIFF(YEAR, `date_of_birth`, CURDATE()) > 30;
 ```
 
 ### QUERY 4
